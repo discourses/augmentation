@@ -69,11 +69,11 @@ This package is used to create/prepare image augmentations for deep convolution 
 docker pull greyhypotheses/derma:augmentation
 mkdir images
 docker run -v ~/images:/app/images greyhypotheses/derma:augmentation
-    src/main.py {YAML URL} --sample {sample}
+    src/main.py {YAML URL} --sample ...
 ```
 
-* YAML URL: The URL of a YAML of parameters/variable, e.g., [variables.yml](https://raw.githubusercontent.com/greyhypotheses/dictionaries/develop/augmentation/variables.yml)
-* sample: Optional.  The number of images to initially augment, for previewing purposes.
+* YAML URL: The URL of a YAML of parameters/variable, e.g., [variables.yml](https://raw.githubusercontent.com/discourses/augmentation/develop/resources/variables.yml)
+* --sample ... : Optional.  The number of images to initially augment, for previewing purposes.
 
 <br>
 <br>
@@ -159,7 +159,7 @@ Running a container of the image, as outlined below, runs the algorithms of this
 #       mapping local path ~/images to the volume of the container, i.e., /app/images
 # -d => 
 #       run the container in the background
-docker run -d -v ~/images:/app/images greyhypotheses/derma:augmentation {YAML URL} --sample {sample}
+docker run -d -v ~/images:/app/images greyhypotheses/derma:augmentation {YAML URL} --sample ...
 
 # Thus far, how many images?
 cd images

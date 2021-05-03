@@ -11,7 +11,7 @@ class TestSources:
     @pytest.fixture()
     def var(self):
         arguments = src.io.arguments.Arguments()
-        urlstring = 'https://raw.githubusercontent.com/greyhypotheses/dictionaries/develop/augmentation/variables.yml'
+        urlstring = 'https://raw.githubusercontent.com/discourses/augmentation/develop/resources/variables.yml'
 
         req = arguments.url(urlstring)
         return arguments.parameters(req)
