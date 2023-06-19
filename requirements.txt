@@ -7,7 +7,6 @@ pytest
 coverage
 pytest-cov
 pylint
-flake8
 opencv-python
 ## The following requirements were added by pip freeze:
 matplotlib
