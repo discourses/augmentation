@@ -4,8 +4,8 @@
 
 <span title="Amazon Web Services">AWS</span> (Amazon Web Services) Data Pipeline JSON:
 
-* infrastructure/datapipeline/definitions/irregular
-* infrastructure/datapipeline/definitions/regular
+* infrastructure/datapipeline/definitions/irregular.json
+* infrastructure/datapipeline/definitions/regular.json
 
 
 <br>
